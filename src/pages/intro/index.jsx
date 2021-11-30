@@ -7,16 +7,10 @@ function PageIntro() {
     console.log(a, b, c);
   }
 
-  const contentStyle = {
-    height: "160px",
-    color: "#fff",
-    lineHeight: "160px",
-    textAlign: "center",
-    background: "#364d79",
-  };
+  
 
   return (
-    <div className="page-intro">
+    <div className="page-intro bg-primary">
       <Carousel dotPosition={"bottom"} afterChange={onChange}>
         <div>
           <StepOne />
