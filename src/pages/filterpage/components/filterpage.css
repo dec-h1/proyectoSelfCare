@@ -1,0 +1,22 @@
+.container-filter {
+    background-color: var(--sure-bg-color);
+}
+
+.container-options-filter {
+    margin: 16px auto;
+}
+
+.container-filter h2 {
+    margin: 32px 0;
+    color: var(--dark-bg-color);
+}
+.form-filter label {
+    font-size: 1rem;
+}
+.form-check-input[type=checkbox]{
+    width: 15px;
+    height: 15px;
+    border-radius: 7px;
+    margin-right: 8px;
+    border: 1px solid #181725;
+}

@@ -5,6 +5,7 @@ import { PageRegister } from "./pages/register";
 import { PageLogin } from "./pages/login";
 import { PageUserData } from "./pages/userdata"
 import { PageUserGoal } from "./pages/usergoal"
+import { FilterPage } from "./pages/filterpage";
 import 'antd/dist/antd.css'; 
 import "./App.css";
 
@@ -30,6 +31,9 @@ function App() {
           </Route>
           <Route path="/usergoal">
             <PageUserGoal />
+          </Route>
+          <Route path="/filterpage">
+            <FilterPage />
           </Route>
         </Switch>
       </Router>
