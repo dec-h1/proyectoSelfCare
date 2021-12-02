@@ -1,28 +1,27 @@
 import { Carousel } from "antd";
 import { StepOne } from "./components/step-one";
 import { StepTwo } from "./components/step-two";
+import { StepThree } from "./components/step-three";
+import { StepFour } from "./components/step-four";
 
 function PageIntro() {
-  function onChange(a, b, c) {
-    console.log(a, b, c);
-  }
-
-  
 
   return (
     <div className="page-intro bg-primary">
-      <Carousel dotPosition={"bottom"} afterChange={onChange}>
+      <Carousel dotPosition={"bottom"}>
         <div>
-          <StepOne />
+          <StepOne 
+          title="La plataforma de aprendizaje saludable que necesitabas"
+          />
         </div>
         <div>
           <StepTwo />
         </div>
         <div>
-          <StepOne />
+          <StepThree />
         </div>
         <div>
-          <StepTwo />
+          <StepFour/>
         </div>
       </Carousel>
     </div>

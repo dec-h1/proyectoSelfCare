@@ -11,7 +11,7 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="App w-80 mx-auto  h-screen">
+    <div className="App w-96 mx-auto  h-screen">
       <Router>
         <Switch>
           <Route path="/intro">
