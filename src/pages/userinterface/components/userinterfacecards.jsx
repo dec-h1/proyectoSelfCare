@@ -28,7 +28,7 @@ return(
      <Card
         style={{ width: '100%' }}
         title="Card title"
-        extra={<a href="#">More</a>}
+        extra={<a href="#" className="text-black font-bold hover:text-primary hover:font-bold">Más</a>}
         tabList={tabList}
         activeTabKey={activeTabKey1}
         onTabChange={key => {

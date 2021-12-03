@@ -9,15 +9,22 @@ function PageUserInterface() {
         <TitlePageUserInterface
         title="Hola, Nombre"
         />
-        <div className="rounded-t-xl bg-primary flex-grow pt-10 z-0 overflow-scroll px-5 ">
+        <div className="rounded-t-xl bg-primary h-full pt-10 overflow-y-scroll px-5">
             <div className="rounded-xl bg-white w-full h-28 text-right mb-8">
                 <p className="text-2xl font-bold pr-20 pt-5">PUNTOS</p>
                 <p className="text-base font-bold text-primary pr-32">0</p>
             </div>
-
-            <InterfaceCards className="mb-8"/>
-
+            <div className="mb-10">
             <InterfaceCards/>
+            </div>
+            <div className="mb-10">
+            <InterfaceCards/>
+            </div>
+            <div>
+            <InterfaceCards/>
+            </div>
+          
+            
         </div>
         <BottomMenu/>
     
