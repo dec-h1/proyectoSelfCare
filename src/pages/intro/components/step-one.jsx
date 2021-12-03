@@ -14,7 +14,7 @@ function StepOne(props) {
     <div className="flex justify-end items-end">
     <img className="h-96" src={imagebot} alt="selfcare-logo-top-face" />
     </div>
-  </div>;
+    </div>;
 }
 
 export { StepOne };

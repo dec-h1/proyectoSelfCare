@@ -8,6 +8,7 @@ import { PageUserGoal } from "./pages/usergoal"
 import { FilterPage } from "./pages/filterpage";
 import 'antd/dist/antd.css'; 
 import "./App.css";
+import { PageUserInterface } from "./pages/userinterface";
 
 function App() {
   return (
@@ -34,6 +35,9 @@ function App() {
           </Route>
           <Route path="/filterpage">
             <FilterPage />
+          </Route>
+          <Route path="/userinterface">
+            <PageUserInterface />
           </Route>
         </Switch>
       </Router>

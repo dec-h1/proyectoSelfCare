@@ -14,7 +14,7 @@ return(
     autoComplete="off"
     >
 
-  <Form.Item  className="flex justify-between px-5"
+  <Form.Item  className="flex justify-between px-5 font-bold"
     label="Peso Actual"
     name="peso"
     rules={[
@@ -30,7 +30,7 @@ return(
  
 
  
-  <Form.Item  className="flex justify-between px-5"
+  <Form.Item  className="flex justify-between px-5 font-bold"
     label="Talla"
     name="talla"
     rules={[
@@ -44,7 +44,7 @@ return(
 
   </Form.Item>
 
-  <Form.Item  className="flex justify-between px-5"
+  <Form.Item  className="flex justify-between px-5 font-bold"
     label="Sexo"
     name="sexo"
     rules={[
@@ -63,7 +63,7 @@ return(
     
   </Form.Item>
   
-  <Form.Item  className="flex justify-between px-5"
+  <Form.Item  className="flex justify-between px-5 font-bold"
     label="Fecha de Nac."
     name="fechnac"
     rules={[

@@ -4,19 +4,18 @@ function FormLogin(){
     return(
         <Form
       name="basic"
-      labelCol={{span: 9}}
       initialValues={{ remember: true }}
       autoComplete="off"
     >
-      <Form.Item className="grid grid-cols-1 px-5 justify-items-start"
-        label="Email    "
+      <Form.Item className="grid grid-cols-1 px-5 justify-items-start font-bold w-full"
+        label="Email"
         name="email"
         rules={[{ required: true, message: 'Por favor, Ingresa tu correo' }]}
       >
         <Input  className="bg-transparent border-t-0 border-r-0 border-l-0 font-bold hover:bg-transparent hover:border-yellow-400 hover:border-t-0 hover:border-r-0 hover:border-l-0"/>
       </Form.Item>
 
-      <Form.Item className="grid grid-cols-1 px-5"
+      <Form.Item className="grid grid-cols-1 px-5 font-bold justify-items-start w-full"
         label="Contraseña"
         name="password"
         rules={[{ required: true, message: 'Por favor, Ingresa una contraseña' }]}

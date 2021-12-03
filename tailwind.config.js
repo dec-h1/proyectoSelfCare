@@ -8,6 +8,11 @@ module.exports = {
         secondary:"#F4F5FA",
         complementary: "#ebc96c",
       },
+      textColor: {
+        primary: "#95c7c1",
+        secondary:"#F4F5FA",
+        complementary: "#ebc96c",
+      }
     },
   },
   variants: {
