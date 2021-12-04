@@ -10,9 +10,9 @@ function StepOne(props) {
   <div className="grid grid-cols-1 place-content-end">
   <div className="container-logoslogan">
 
-  <img className="w-80 pl-5 " src={logointro} alt="selfcare-logo-top-face" />
+  <img src={logointro} alt="selfcare-logo-top-face" />
   
-  <h1>Selfcare</h1>
+  <h1 className="h1 intro-h1">Selfcare</h1>
   </div>
 
   <p className="text-center stepOne-p">{title}</p>

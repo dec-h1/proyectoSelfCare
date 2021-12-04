@@ -3,10 +3,14 @@
     justify-self: center;
     color: var(--sure-bg-color);
 }
+.intro-h1 {
+    margin-bottom: 0;
+}
 .container-logoslogan {
     width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .container-logoslogan img {
     width: 90px;
