@@ -4,10 +4,10 @@ function FilterDesign  ()  {
     return (
       <section className="container-filter">
         
-        <h2 className="text-center text-xl font-bold">Filtros</h2>
+        <h2 className="">Filtros</h2>
         <form className="form-filter">
          
-          <h3 className="text-2xl pb-5 font-bold">Personalizado</h3>
+          <h3 className="">Personalizado</h3>
           <div className="container-options-filter">
             <div className="flex justify-between">
             <label for="customRange1" class="form-label">
@@ -36,7 +36,7 @@ function FilterDesign  ()  {
           </div>
   
           <div className="container-options-filter">
-          <h3 className="text-2xl pb-5 font-bold">Comidas</h3>
+          <h3 >Comidas</h3>
             <div class="form-check">
               <input
                 class="form-check-input"
@@ -75,7 +75,7 @@ function FilterDesign  ()  {
           </div>
   
           <div className="container-options-filter">
-              <h3 className="text-2xl pb-5 font-bold">Tiempo</h3>
+              <h3 >Tiempo</h3>
               <div className="flex justify-between">
               <label for="customRange1" class="form-label">
               Tiempo
@@ -85,7 +85,7 @@ function FilterDesign  ()  {
           </div>
   
           <div className="container-options-filter">
-          <h3 className="text-2xl pb-5 font-bold">Dificultad</h3>
+          <h3 >Dificultad</h3>
             <div class="form-check">
               <input
                 class="form-check-input"
@@ -93,7 +93,7 @@ function FilterDesign  ()  {
                 value=""
                 id="flexCheckDefault"
               />
-              <label class="form-check-label" for="flexCheckDefault">
+              <label >
               Fácil
               </label>
             </div>
@@ -105,7 +105,7 @@ function FilterDesign  ()  {
                 id="flexCheckChecked"
              
               />
-              <label class="form-check-label" for="flexCheckChecked">
+              <label >
                 Media
               </label>
             </div>
@@ -117,7 +117,7 @@ function FilterDesign  ()  {
                 id="flexCheckChecked"
              
               />
-              <label class="form-check-label" for="flexCheckChecked">
+              <label >
                 Difícil
               </label>
             </div>

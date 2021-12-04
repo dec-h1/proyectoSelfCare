@@ -1,6 +1,6 @@
 import { TitlePage } from "../../components/title-page";
 import { FormUserData } from "./components/formuserdata";
-
+import "./userdata.css"
 
 function PageUserData() {
   return (
@@ -9,9 +9,8 @@ function PageUserData() {
         title="Datos"
         subtitle="Ingrese su información"
       />
-      <div className="rounded-t-xl bg-primary flex-grow pt-20">
+
       <FormUserData/>
-      </div>
     </div>
   );
 }

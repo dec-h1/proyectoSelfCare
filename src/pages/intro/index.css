@@ -1,0 +1,14 @@
+.stepOne-p {
+    width: 180px;
+    justify-self: center;
+    color: var(--sure-bg-color);
+}
+.container-logoslogan {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.container-logoslogan img {
+    width: 90px;
+    height: auto;
+}

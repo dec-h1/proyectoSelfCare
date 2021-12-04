@@ -1,6 +1,7 @@
 import "./quiz.css";
 import { useState } from "react";
-import logoYellow from "../../../images/logo-yellow.png"
+import logoYellow from "../../../images/assets/img/logo-white.png"
+import { BottomMenu } from "../../../components/bottom-menu";
 
 function Quiz(){
   const questions = [
@@ -234,24 +235,25 @@ function Quiz(){
         <section>
           <div className="Quiz-facts">
           <img src={logoYellow}/>
-            <h2>Scored</h2>
+            <h1 className="h1">Scored</h1>
           </div>
-          <h2 className="score-section">
+          <h2 className="score-section h2">
             Tu puntaje es {score} de {questions.length}
           </h2>
           <button class="btn btn-primary Btn"><a href="../Quizzes">
           Regresar al home
           </a>
           </button>
+          <BottomMenu/>
         </section>
       ) : (
         <>
           <section className="question-section">
-            <h2 className="question-count">
+            <h2 className="question-count h2">
               Pregunta {currentQuestion + 1}/{questions.length}
             </h2>
 
-            <p className="question-text">
+            <p className="question-text p">
               {questions[currentQuestion].questionText}
             </p>
           </section>

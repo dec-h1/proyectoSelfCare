@@ -3,3 +3,17 @@
     border: 1px solid rgba(252, 211, 77, var(--tw-bg-opacity)) !important;
     color: #FFF !important;
 }
+.ant-btn.btn-goal {
+    padding: 16px ;
+height: auto ;
+border-radius: 16px ;
+color: #a4aab5 ;
+font-weight: normal 
+}
+.ant-btn.btn-goal:hover{
+    
+    background-color: var(--secondary-bg-color);
+}
+.ant-btn.btn-siguiente{
+    background-color: var(--secondary-bg-color);
+}

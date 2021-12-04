@@ -1,6 +1,6 @@
 import { Form,Button, InputNumber, Select, DatePicker } from 'antd';
 import "./formuserdata.css";
-
+import "../../../App.css"
 function FormUserData(){
     const { Option } = Select;
 
@@ -8,13 +8,14 @@ function FormUserData(){
 return(
 
     <Form
+    className="form"
     name="formuserdata"
     wrapperCol={{ span: 12 }}
     initialValues={{remember: true,}}
     autoComplete="off"
     >
 
-  <Form.Item  className="flex justify-between px-5 font-bold"
+  <Form.Item  className="flex justify-between px-5"
     label="Peso Actual"
     name="peso"
     rules={[
@@ -30,7 +31,7 @@ return(
  
 
  
-  <Form.Item  className="flex justify-between px-5 font-bold"
+  <Form.Item  className="flex justify-between px-5"
     label="Talla"
     name="talla"
     rules={[
@@ -44,7 +45,7 @@ return(
 
   </Form.Item>
 
-  <Form.Item  className="flex justify-between px-5 font-bold"
+  <Form.Item  className="flex justify-between px-5 input-sex"
     label="Sexo"
     name="sexo"
     rules={[
@@ -63,7 +64,7 @@ return(
     
   </Form.Item>
   
-  <Form.Item  className="flex justify-between px-5 font-bold"
+  <Form.Item  className="flex justify-between px-5"
     label="Fecha de Nac."
     name="fechnac"
     rules={[

@@ -3,11 +3,12 @@ import { StepOne } from "./components/step-one";
 import { StepTwo } from "./components/step-two";
 import { StepThree } from "./components/step-three";
 import { StepFour } from "./components/step-four";
+import "./index.css"
 
 function PageIntro() {
 
   return (
-    <div className="page-intro bg-primary">
+    <section className="page-intro bg-primary">
       <Carousel dotPosition={"bottom"}>
         <div>
           <StepOne 
@@ -24,7 +25,7 @@ function PageIntro() {
           <StepFour/>
         </div>
       </Carousel>
-    </div>
+    </section>
   );
 }
 

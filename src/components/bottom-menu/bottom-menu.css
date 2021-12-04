@@ -1,0 +1,10 @@
+.bottomMenuu {
+    width: 400px !important;
+position: fixed;
+bottom: 0px;
+border-radius: 24px 24px 0 0;
+left: 306px;
+padding: 16px;
+height: auto;
+cursor: pointer;
+}

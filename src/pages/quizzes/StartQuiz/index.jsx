@@ -26,28 +26,30 @@ const StartQuiz = ({ fetchQuestions }) => {
 
     <section className="Home-container">
       <div class="row">
-        <h2>Seleccione su nivel</h2>
+        <h2 className="h2"
+        >Seleccione su nivel</h2>
 
         <form className="form">
 
           {error && <ErrorMessage>Por favor rellene todos los campos</ErrorMessage>}
 
           <button className="btn-difficulty">
-            <h2
+            <h2 
+            className="h2"
             value={difficulty}
-            
             >
             Facíl</h2>
           </button>
           <button className="btn-difficulty">
             <h2 
+            className="h2"
             value={difficulty}
-           
             >
             Intermedio</h2>
           </button>
           <button className="btn-difficulty">
             <h2 
+            className="h2"
             value={difficulty}
           
             >
