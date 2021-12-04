@@ -59,7 +59,7 @@ const StartQuiz = ({ fetchQuestions }) => {
           class="btn btn-primary Btn Btn-secondary"
           onClick={handleSubmit}
           >
-          <a href="#">Comenzar Quiz</a>
+          <a href="./quiz">Comenzar Quiz</a>
           </button>
 
         </form>
