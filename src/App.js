@@ -6,13 +6,17 @@ import { PageLogin } from "./pages/login";
 import { PageUserData } from "./pages/userdata"
 import { PageUserGoal } from "./pages/usergoal"
 import { FilterPage } from "./pages/filterpage";
+import { PageUserInterface } from "./pages/userinterface";
+import { Quizzes } from "./pages/quizzes";
 import 'antd/dist/antd.css'; 
 import "./App.css";
-import { PageUserInterface } from "./pages/userinterface";
+import { Quiz } from "./pages/quizzes/Quiz";
+import { Facts } from "./pages/quizzes/Facts";
+
 
 function App() {
   return (
-    <div className="App w-96 mx-auto  h-screen">
+    <div className="App w-96 mx-auto h-screen">
       <Router>
         <Switch>
           <Route path="/intro">
@@ -38,6 +42,15 @@ function App() {
           </Route>
           <Route path="/userinterface">
             <PageUserInterface />
+          </Route>
+          <Route path="/quizzes">
+            <Quizzes />
+          </Route>
+          <Route path="/quiz">
+            <Quiz />
+          </Route>
+          <Route path="/facts">
+            <Facts />
           </Route>
         </Switch>
       </Router>

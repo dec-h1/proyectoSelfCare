@@ -1,0 +1,46 @@
+:root {
+    --main-bg-color: #96c7c1;
+    --secondary-bg-color: #ebc96b;
+    --sure-bg-color: #ffffff;
+    --dark-bg-color: #181725;
+    --grey-dark: #7c7c7c;
+    --grey-sure: #f4f5fa;
+  }
+  
+  .Home-container {
+    height: 65vh;
+    padding: 24px;
+    display: grid;
+    place-items: center;
+    background-color: var(--main-bg-color);
+  }
+  .Home-container input, .form-select{
+    padding: 16px;
+    border-radius: 16px;
+    font-size: 1.6rem;
+    background-color: var(--secondary-bg-color);
+    color: var(--sure-bg-color);
+  }
+  .form-control.input::placeholder {
+    color: var(--sure-bg-color);
+  }
+  .btn-primary.Btn-secondary {
+    margin: 32px 0;
+    background-color: var(--sure-bg-color);
+    color:var(--main-bg-color)
+  }
+  .btn-difficulty {
+    width: 100%;
+    margin: 12px 0;
+    padding: 16px;
+    background-color: var(--secondary-bg-color);
+    border-radius: 16px;
+    box-shadow: 2px 5px 10px 0px var(--sure-bg-color);
+    border: none;
+  }
+  .btn-difficulty h2 {
+    margin-bottom: 0;
+  }
+  .btn-difficulty:active{
+    background-color: #eb6084;
+  }
