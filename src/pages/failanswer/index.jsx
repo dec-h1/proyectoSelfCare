@@ -1,13 +1,15 @@
-import wrong from "./assets/wrong.PNG";
+import { Result, Button } from 'antd';
 
-function Wrong () {
+function PageFailanswer() {
   return (
-    <section className="containerWrongRight">
-      <img className="header" src={wrong}></img>
-      <h3>Inorrecto</h3>
-      <button class="btn btn-primary Btn">Intentalo de nuevo</button>
-    </section>
-  );
-};
-
-export { Wrong };
+    <Result
+        className="flex flex-col h-screen bg-secundary"
+        status="error"
+        title="Inténtalo de nuevo"
+        subTitle="No has resuelto bien este reto."
+        extra={[
+            <Button type="primary" key="console">Try Again</Button>
+        ]}
+    />
+  )
+} export { PageFailanswer }

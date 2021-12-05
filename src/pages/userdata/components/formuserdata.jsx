@@ -84,7 +84,7 @@ return(
       span: 24,
     }}
   >
-    <Button type="primary" htmlType="submit" className="bg-yellow-300 rounded-xl border-yellow-300 text-white w-full h-12 font-bold hover:bg-yellow-400 hover:border-yellow-400 hover:text-black">
+    <Button type="primary" htmlType="submit" className=" btn-difficulty">
       Siguiente
     </Button>
   </Form.Item>

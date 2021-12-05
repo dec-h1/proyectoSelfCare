@@ -1,15 +1,13 @@
-:root {
-    --main-bg-color: #96c7c1;
-    --secondary-bg-color: #ebc96b;
-    --sure-bg-color: #ffffff;
-    --dark-bg-color: #181725;
-    --grey-dark: #7c7c7c;
-    --grey-sure: #f4f5fa;
+
+  .h2-quizzes {
+    margin-bottom: 0;
   }
-  
   .Home-container {
-    height: 65vh;
-    padding: 24px;
+    height: auto;
+    position: relative;
+    margin-bottom: 63px;
+    padding-top: 24px;
+    margin-bottom: 45px;
     display: grid;
     place-items: center;
     background-color: var(--main-bg-color);
@@ -35,12 +33,12 @@
     padding: 16px;
     background-color: var(--secondary-bg-color);
     border-radius: 16px;
-    box-shadow: 2px 5px 10px 0px var(--sure-bg-color);
     border: none;
   }
   .btn-difficulty h2 {
     margin-bottom: 0;
   }
+
   .btn-difficulty:active{
     background-color: #eb6084;
   }

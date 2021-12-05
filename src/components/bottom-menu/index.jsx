@@ -1,7 +1,9 @@
+import "./bottom-menu.css"
 function BottomMenu() {
    
     return (
-      <div className="bg-secondary w-96 h-24 flex justify-center gap-16 py-8 bottom-0 bottomMenuu">
+      <div 
+      className="menuBotton">
           <div className="grid grid-rows-2 justify-items-center gap-3">
             <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 hover:text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path d="M12 14l9-5-9-5-9 5 9 5z" />

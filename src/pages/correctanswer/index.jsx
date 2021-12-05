@@ -1,18 +1,30 @@
-import right from "./assets/right.PNG"
+import { Result, Button } from 'antd';
 import "./correctanswer.css"
 
-function Right() {
+function PageCorrectanswer() {
   return (
-    <section className="containerWrongRight">
-      <img className="header"  src={right}>
-      </img>
-      <h3>Correcto</h3>
-      <button 
-      class="btn btn-primary Btn">
-      Siguiente
-      </button>
-    </section>
+    <Result
+        className="flex flex-col h-screen bg-secundary"
+        status="success"
+        title="¡Correcto!"
+        subTitle="Has resuelto bien este reto"
+        extra={[
+        <Button type="primary" key="console">Atrás</Button>,
+        <Button key="buy">Siguiente</Button>
+        ]}
+    />
   );
-};
+}
+/*
 
-export { Right };
+
+ReactDOM.render(
+  <Result
+
+    ]}
+  />,
+  mountNode,
+);
+*/
+
+export { PageCorrectanswer }; 

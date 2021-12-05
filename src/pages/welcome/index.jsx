@@ -11,12 +11,12 @@ function PageWelcome() {
       />
       <section className="form">
         <div className="pb-10  pl-5 pr-5">
-          <Button className="bg-yellow-300 rounded-xl border-yellow-300 text-white w-full hover:text-black btn-goal">
+          <Button className="bg-yellow-300 rounded-xl border-yellow-300 text-white w-full hover:text-black btn-goal btn-difficulty">
             Registrarse
           </Button>
         </div>
         <div className="pb-10  pl-5 pr-5">
-          <Button className="bg-yellow-300 rounded-xl border-yellow-300 text-white w-full hover:text-black btn-goal">
+          <Button className="bg-yellow-300 rounded-xl border-yellow-300 text-white w-full hover:text-black btn-goal btn-difficulty">
             Iniciar Sesión
           </Button>
         </div>

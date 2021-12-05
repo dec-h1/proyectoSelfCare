@@ -1,3 +1,4 @@
-.ant-btn.btn-goal:hover {
-    background-color: #eb6084 !important;
+
+.ant-btn.btn-difficulty{
+    background-color: var(--secondary-bg-color);
 }

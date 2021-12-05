@@ -1,7 +1,9 @@
 import { useState } from "react";
-import "./facts.css"
+import { BottomMenu } from "../../../components/bottom-menu";
+import {TitlePage} from "../../../components/title-page"
+import "./facts.css";
 
-function Facts(){
+function Facts() {
   const questions = [
     {
       questionText:
@@ -14,7 +16,8 @@ function Facts(){
       fact: "lorem tghg rehn4idv  e3irnbcfdkei eubgrfv rubgdj iubvgfdk rj",
     },
     {
-      questionText: "Seleccione el grupo de alimentos que son altas fuente de calcio?",
+      questionText:
+        "Seleccione el grupo de alimentos que son altas fuente de calcio?",
       answerOptions: [
         { answerText: "Carnes rojas, Naranjas, Cereales", isCorrect: false },
         { answerText: "Brocoli, Almendras, huevo", isCorrect: true },
@@ -117,20 +120,18 @@ function Facts(){
   const [currentQuestion, setCurrentQuestion] = useState(0);
   return (
     <di>
-      <h2 className="fact-h2">Facts</h2>
-      <section 
-      className="container-quiz fact-container-quiz"
-      >
-      <p>
-      {questions[currentQuestion].fact}
-      </p>
-      <button class="btn btn-primary Btn">
-        Siguiente
-      </button>
+      <TitlePage
+        title="Facts"
+        subtitle=""
+      />
 
+      <section className="container-quiz fact-container-quiz">
+        <p>{questions[currentQuestion].fact}</p>
+        <button class="btn btn-primary Btn">Siguiente</button>
       </section>
+      <BottomMenu />
     </di>
   );
-};
+}
 
 export { Facts };

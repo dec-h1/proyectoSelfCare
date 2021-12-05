@@ -10,8 +10,10 @@ import { PageUserInterface } from "./pages/userinterface";
 import { Quizzes } from "./pages/quizzes";
 import { Quiz } from "./pages/quizzes/Quiz";
 import { Facts } from "./pages/quizzes/Facts";
-import { Right } from "./pages/correctanswer";
-import { Wrong } from "./pages/failanswer";
+import { PageCorrectanswer } from "./pages/correctanswer";
+import { PageFailanswer } from "./pages/failanswer";
+
+
 
 import 'antd/dist/antd.css'; 
 import "./App.css";
@@ -55,11 +57,13 @@ function App() {
             <Facts />
           </Route>
           <Route path="/wrong">
-            <Wrong />
+            <PageFailanswer />
           </Route>
           <Route path="/right">
-            <Right />
+            <PageCorrectanswer />
           </Route>
+
+
         </Switch>
       </Router>
     </div>

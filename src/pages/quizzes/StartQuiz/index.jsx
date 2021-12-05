@@ -25,8 +25,8 @@ const StartQuiz = ({ fetchQuestions }) => {
   return (
 
     <section className="Home-container">
-      <div class="row">
-        <h2 className="h2"
+     
+        <h2 className="h2 h2-quizzes"
         >Seleccione su nivel</h2>
 
         <form className="form">
@@ -65,7 +65,6 @@ const StartQuiz = ({ fetchQuestions }) => {
           </button>
 
         </form>
-      </div>
     </section>
     
   );
